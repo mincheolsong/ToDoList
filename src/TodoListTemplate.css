@@ -1,0 +1,81 @@
+.todo-list-template{
+   background-color: white;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.title{
+   background-color: #22b8cf;
+   font-size: 2.5rem;
+   font-weight : 100;
+   color : white;
+   text-align: center;
+   padding:  2rem;
+}
+.form-wrapper{
+  padding : 1rem;
+  border-bottom: 1px solid #22b8cf;
+  display:flex;
+}
+.form{
+   border : none;
+   outline : none;
+   font-size : 1.25rem;
+   flex : 1;
+   border-bottom: 1px solid #c5f6fa;
+}
+.create-button{
+   background: #22b8cf;
+   border-radius: 3px;
+   color: white;
+   font-weight: 600;
+   cursor: pointer;
+   padding : 5px 10px;
+   margin-left: 1rem;
+}
+
+.todos-wrapper{
+	min-height: 5rem;
+   /* padding : 1rem 1rem 0.5rem; */
+}
+
+.todos-wrapper > div{
+   font-size : 1.2rem;
+   /* font-weight : 100; */
+   /* padding-bottom : 0.5rem; */
+}
+
+.content-container{
+   display:flex;
+   padding: 1rem;
+}
+.content-container:hover{
+   background: #e3fafc;
+}
+.content-container:hover .remove{
+   opacity : 1;
+}
+
+.content{
+   flex : 1;
+}
+.checked-content{
+   text-decoration: line-through;
+   color: #adb5bd;
+}
+
+.remove{
+   color : red;
+   margin-right: 1rem;
+   font-weight : 600;
+   opacity: 0;
+   cursor: pointer;
+}
+.remove:hover{
+   opacity: 1.0;
+}
+.check-button{
+   margin-left: 1rem;
+   color : #3bc9db;
+   font-size:1.2rem;
+   cursor: pointer;
+   font-weight: bold;
+}
